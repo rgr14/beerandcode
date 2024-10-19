@@ -17,7 +17,6 @@ return new class extends Migration
             $table->timestamp('last_updated_at');
             $table->integer('old_plan_id');
             $table->smallInteger('old_status');
-            $table->timestamps();
         });
     }
 
